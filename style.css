@@ -1,0 +1,48 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: aqua;
+    display:flex;
+
+}
+.logo{
+    background-color: blueviolet;
+    flex-basis: 17%;
+}
+.heading{
+    background-color: chartreuse;
+    flex-basis: 83%;
+}
+.logo{
+    transform: rotate(360deg);
+    transition: 20s;
+}
+.heading h1{
+    transform: translateX(400px);
+    transition: 20s;
+    animation-name: vinayak-m;
+    animation-duration: 20s;
+}
+footer{
+    transform: scaley(2);
+    transition: 20s;
+}
+section p{
+    transform: skewX(200deg);
+    transition: 20s;
+}
+@keyframes vinayak-m{
+    from{color:white;}
+    to{color: red;}
+}
+section{
+    background-color: burlywood;
+}
+
+footer{
+    background-color: cadetblue;
+    text-align: center;
+    font-weight: bold;
+}
